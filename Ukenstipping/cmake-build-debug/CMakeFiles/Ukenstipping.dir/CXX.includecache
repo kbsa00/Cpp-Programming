@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/UkensTipping.cpp
+UkensTipping.h
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/UkensTipping.h
+iostream
+-
+
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/UkensTipping.h
+
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/main.cpp
+iostream
+-
+UkensTipping.h
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/UkensTipping.h
+

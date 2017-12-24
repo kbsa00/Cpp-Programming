@@ -1,0 +1,3 @@
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/khalid_bs/Desktop/C++ Projects/Ukenstipping/cmake-build-debug/CMakeFiles/Ukenstipping.dir

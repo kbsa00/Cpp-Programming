@@ -3,6 +3,8 @@
 
 using namespace std;
 
+void printList(vector<int>&);
+
 int main() {
 
 
@@ -18,10 +20,8 @@ int main() {
     //Vector.size() returns a unsigned int, Therefore you need to use a unsigned int in the loop
 
     cout << "Printing out the list" << endl;
+    printList(vectorlist);
 
-    for(unsigned int i = 0; i < vectorlist.size(); i++){
-        cout << vectorlist.at(i) << " ";
-    }
     cout << endl;
 
     //Insert() function will add the new value in the index, But will not overwrite.
@@ -29,9 +29,7 @@ int main() {
     vectorlist.insert(vectorlist.begin(), 5);
 
     cout << "Inserting number 5 in index 1" << endl;
-    for(unsigned int i = 0; i < vectorlist.size(); i++){
-        cout << vectorlist.at(i) << " ";
-    }
+    printList(vectorlist);
     cout << endl;
 
 
@@ -39,12 +37,24 @@ int main() {
     //Erease will remove the element of the index.
     vectorlist.erase(vectorlist.begin() + 2);
     cout << "Erasing the index 2 " << endl;
+    printList(vectorlist);
+
+    //Clear will clear the whole list
+    vectorlist.clear();
+
+    return 0;
+}
+
+
+
+//Why do we use the & refrence? Instead of copying the list, you should always use the same
+//vector list. One vector list takes enough memory space. Calling on it several times can
+// make your program run slow..
+
+void printList(vector<int> & vectorlist){
+
     for(unsigned int i = 0; i < vectorlist.size(); i++){
         cout << vectorlist.at(i) << " ";
     }
 
-    //Clear will clear the whole list
-    vectorlist.clear(); 
-
-    return 0;
 }

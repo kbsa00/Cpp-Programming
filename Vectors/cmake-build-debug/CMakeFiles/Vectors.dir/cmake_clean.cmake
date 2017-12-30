@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Vectors.dir/main.cpp.o"
+  "CMakeFiles/Vectors.dir/main.cpp.obj"
   "Vectors.pdb"
-  "Vectors"
+  "Vectors.exe"
+  "Vectors.exe.manifest"
+  "libVectors.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

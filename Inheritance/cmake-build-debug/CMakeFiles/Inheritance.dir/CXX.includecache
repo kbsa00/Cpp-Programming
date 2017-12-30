@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Eier/Desktop/C++/Inheritance/Isosceles.cpp
+Isosceles.h
+C:/Users/Eier/Desktop/C++/Inheritance/Isosceles.h
+
+C:/Users/Eier/Desktop/C++/Inheritance/Isosceles.h
+Triangle.h
+C:/Users/Eier/Desktop/C++/Inheritance/Triangle.h
+iostream
+-
+
+C:/Users/Eier/Desktop/C++/Inheritance/Triangle.cpp
+Triangle.h
+C:/Users/Eier/Desktop/C++/Inheritance/Triangle.h
+
+C:/Users/Eier/Desktop/C++/Inheritance/Triangle.h
+iostream
+-
+
+C:/Users/Eier/Desktop/C++/Inheritance/main.cpp
+iostream
+-
+Isosceles.h
+C:/Users/Eier/Desktop/C++/Inheritance/Isosceles.h
+

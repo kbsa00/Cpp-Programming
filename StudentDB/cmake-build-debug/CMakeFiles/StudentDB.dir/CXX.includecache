@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Eier/Desktop/C++/StudentDB/StudentDB.cpp
+StudentDB.h
+C:/Users/Eier/Desktop/C++/StudentDB/StudentDB.h
+iostream
+-
+
+C:/Users/Eier/Desktop/C++/StudentDB/StudentDB.h
+string
+-
+vector
+-
+fstream
+-
+
+C:/Users/Eier/Desktop/C++/StudentDB/Studentdb.h
+string
+-
+vector
+-
+fstream
+-
+
+C:/Users/Eier/Desktop/C++/StudentDB/main.cpp
+iostream
+-
+Studentdb.h
+C:/Users/Eier/Desktop/C++/StudentDB/Studentdb.h
+

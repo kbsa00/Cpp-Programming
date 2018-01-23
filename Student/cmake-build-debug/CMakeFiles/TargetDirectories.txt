@@ -1,3 +1,0 @@
-C:/Users/Eier/Desktop/C++/Student/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Eier/Desktop/C++/Student/cmake-build-debug/CMakeFiles/Student.dir
-C:/Users/Eier/Desktop/C++/Student/cmake-build-debug/CMakeFiles/rebuild_cache.dir

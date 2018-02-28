@@ -8,7 +8,6 @@ public:
 	Rect(const Window & window, int positionX, int positionY);
 	~Rect();
 	void init();
-	void Pollevent();
 	void draw(); 
 	
 	//Setters and getters

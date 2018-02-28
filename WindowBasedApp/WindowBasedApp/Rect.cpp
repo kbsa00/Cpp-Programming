@@ -31,35 +31,6 @@ void Rect::init()
 	
 }
 
-
-void Rect::Pollevent()
-{
-
-	SDL_Event event;
-
-	if (SDL_PollEvent(&event))
-	{
-		if (event.type == SDL_KEYDOWN)
-		{
-			switch (event.key.keysym.sym)
-			{
-			case SDLK_RIGHT: 
-				_posX += 10; 
-
-				break;
-
-			case SDLK_LEFT: 
-				_posX -= 10; 
-
-				break; 
-			default: 
-				break; 
-			}
-		}
-	}
-	
-}
-
 void Rect::draw()
 {	
 	SDL_RenderCopy(_rendrer, _texture, nullptr, &_rect);
